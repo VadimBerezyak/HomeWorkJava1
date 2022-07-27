@@ -16,7 +16,7 @@ public class StudentQAguru {
     }
 
     public void infoAboutStudent(StudentQAguru student){
-        System.out.println(student.name);
+        System.out.println("Name: " + student.name + "," +" Age: " + student.age);
 
     }
 }
